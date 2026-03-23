@@ -1,0 +1,18 @@
+// 9-extend_list.scss
+
+// Base class with font size
+.info {
+  font-size: 12px;
+}
+
+// Success extends info and adds color
+.success {
+  @extend .info;
+  color: #00FF00;
+}
+
+// Warning extends info and adds color
+.warning {
+  @extend .info;
+  color: #FF0000;
+}
