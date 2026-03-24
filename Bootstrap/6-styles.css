@@ -1,0 +1,50 @@
+/* --- Primary Buttons (#E0003C) --- */
+.btn-primary {
+    background-color: #E0003C !important;
+    border-color: #E0003C !important;
+}
+
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active {
+    background-color: #BC1340 !important;
+    border-color: #BC1340 !important;
+}
+
+/* --- Outline Primary Buttons --- */
+.btn-outline-primary {
+    color: #E0003C !important;
+    border-color: #E0003C !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #E0003C !important;
+    border-color: #E0003C !important;
+    color: #ffffff !important;
+}
+
+/* --- Global Link Styling --- */
+/* Targeting <a> tags specifically to override Bootstrap utility colors */
+a, a:hover, a:focus {
+    color: #E0003C !important;
+}
+
+/* --- Card Customization --- */
+/* Applying border color and 1rem radius to container and sub-elements */
+.card {
+    border: 1px solid #E0003C !important;
+    border-radius: 1rem !important;
+    overflow: hidden; /* Ensures child backgrounds don't bleed over rounded corners */
+}
+
+.card-header, 
+.card-footer {
+    border-color: #E0003C !important;
+    /* Resetting bottom/top radius to match the parent 1rem */
+    border-radius: calc(1rem - 1px) calc(1rem - 1px) 0 0 !important;
+}
+
+/* --- Text Muted Utility --- */
+.text-muted {
+    color: #8C8C8C !important;
+}
